@@ -1,5 +1,5 @@
 % Import data
-data = readtable('/Users/zackberger/Desktop/ML/HW/HW_6/data.csv');
+data = readtable('../data/data.csv');
 data = data{:,:};
 
 % Separate data into column vectors

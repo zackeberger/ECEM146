@@ -1,5 +1,5 @@
 % Import 300x400 picture of Bruin Bear, then display it
-pic = imread('/Users/zackberger/Desktop/ML/HW/HW_7/UCLA_Bruin.jpg');
+pic = imread('../img/UCLA_Bruin.jpg');
 
 % Initialize K-means algorithm; K > 0
 K = 16;
