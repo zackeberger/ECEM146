@@ -7,10 +7,10 @@ from sklearn import tree
 def main():
 
     # Import all training and testing data
-    training_dataX = np.loadtxt("/Users/zackberger/Desktop/Ml/HW/HW_3/dataTraining_X.csv", delimiter=',') 
-    training_dataY = np.loadtxt("/Users/zackberger/Desktop/Ml/HW/HW_3/dataTraining_Y.csv", delimiter=',')
-    testing_dataX = np.loadtxt("/Users/zackberger/Desktop/Ml/HW/HW_3/dataTesting_X.csv", delimiter=',')
-    testing_dataY = np.loadtxt("/Users/zackberger/Desktop/Ml/HW/HW_3/dataTesting_Y.csv", delimiter=',')
+    training_dataX = np.loadtxt("../data/dataTraining_X.csv", delimiter=',') 
+    training_dataY = np.loadtxt("../data/dataTraining_Y.csv", delimiter=',')
+    testing_dataX = np.loadtxt("../data/dataTesting_X.csv", delimiter=',')
+    testing_dataY = np.loadtxt("../data/dataTesting_Y.csv", delimiter=',')
     
     # Basline classification
     baseline_label = baseline_classification(training_dataY)

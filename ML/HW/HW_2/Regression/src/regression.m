@@ -1,12 +1,12 @@
 % Import training data
-data_train = readtable('/Users/zackberger/Desktop/HW_2/Regression/regression_train.csv');
+data_train = readtable('../data/regression_train.csv');
 data_train = data_train{:,:};
 
 input_train = data_train(:,1);
 output_train = data_train(:,2);
 
 % Import testing data
-data_test = readtable('/Users/zackberger/Desktop/HW_2/Regression/regression_test.csv');
+data_test = readtable('../data/regression_test.csv');
 data_test = data_test{:,:};
 
 input_test = data_test(:,1);
