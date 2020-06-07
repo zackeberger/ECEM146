@@ -60,7 +60,7 @@ def main():
  
     # Import and parse all training and testing data
     # Because alpha = 2, want 11th to 20th rows as testing, rest as training
-    data = np.loadtxt("./Q2data.csv", delimiter=',')
+    data = np.loadtxt("../data/Q2data.csv", delimiter=',')
   
     training_info = np.concatenate([ data[0:10], data[20:] ])
     testing_info = data[10:20]
