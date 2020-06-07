@@ -1,5 +1,5 @@
 % Import data
-data = readtable('/Users/zackberger/Desktop/ML/HW/HW_4/Q5/Data.csv');
+data = readtable('../data/Data.csv');
 data = data{:,:};
 
 

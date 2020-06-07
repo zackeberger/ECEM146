@@ -59,10 +59,10 @@ class Knear:
 def main():
  
     # Import all training and testing data
-    training_data = np.loadtxt("/Users/zackberger/Desktop/Ml/HW/HW_3/dataTraining_X.csv", delimiter=',')
-    actual_training_labels = np.loadtxt("/Users/zackberger/Desktop/Ml/HW/HW_3/dataTraining_Y.csv", delimiter=',')
-    testing_data = np.loadtxt("/Users/zackberger/Desktop/Ml/HW/HW_3/dataTesting_X.csv", delimiter=',')
-    actual_testing_labels = np.loadtxt("/Users/zackberger/Desktop/Ml/HW/HW_3/dataTesting_Y.csv", delimiter=',')
+    training_data = np.loadtxt("../data/dataTraining_X.csv", delimiter=',')
+    actual_training_labels = np.loadtxt("../data/dataTraining_Y.csv", delimiter=',')
+    testing_data = np.loadtxt("../data/dataTesting_X.csv", delimiter=',')
+    actual_testing_labels = np.loadtxt("../data/dataTesting_Y.csv", delimiter=',')
    
     # Instantiate K-NN framework with training data
     knn = Knear(training_data, actual_training_labels)
